@@ -6,7 +6,7 @@ https://cs231n.stanford.edu/reports/2016/pdfs/121_Report.pdf
 **Tetris** is a game that involves placing pieces of different shapes on top of each other so that they fill in the rectangular grid.
 A common human approach to this problem involves looking for open spaces that match the shape of the current piece, which is ultimately a task in visual pattern detection and object recognition.
 
-The Deep Reinforcement Learning approach utilizes raw pixel data rather than explicit featurization.
+The Deep Reinforcement Learning approach utilizes raw pixel data rather than explicit featurization (e.g., features relating the contour and height of the game board and the numebr of holes present).
 
 ## RL-intro
 
