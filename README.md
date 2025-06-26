@@ -11,9 +11,9 @@ The Deep Reinforcement Learning approach utilizes raw pixel data rather than exp
 ### Method
 
 The NN is used to approximate
-$$
+$
 Q^{*}(s,a) = \max_{\pi} \mathbb{E}[r_t + \gamma r_{t+1} + \gamma^2 r_{t+2} + \dots | s_t = s, a_t = a, \pi]
-$$
+$
 
 
 ## RL-intro
