@@ -1,3 +1,11 @@
+# 🎮 Playing Tetris with Reinforcement Learning (RL): Applying Computer Vision (CV) to RL for video games  
+
+Inspired by the paper "Playing Tetris with Deep Reinforcement Learning" by Matt Stevens and Sabeek Pradhan:
+https://cs231n.stanford.edu/reports/2016/pdfs/121_Report.pdf
+
+**Tetris** is a game that involves placing pieces of different shapes on top of each other so that they fill in the rectangular grid.
+A common human approach to this problem involves looking for open spaces that match the shape of the current piece, which is ultimately a task in visual pattern detection and object recognition.
+
 ## RL-intro
 
 Reinforcement learning involves an agent, a set of states $\mathcal{S}$, and a set $\mathcal{A}$  of actions per state. By performing an action $a \in \mathcal {A}$, the agent transitions from state to state. Executing an action in a specific state provides the agent with a reward (a numerical score).
