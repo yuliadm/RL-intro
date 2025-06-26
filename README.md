@@ -8,6 +8,14 @@ A common human approach to this problem involves looking for open spaces that ma
 
 The Deep Reinforcement Learning approach utilizes raw pixel data rather than explicit featurization (e.g., features relating the contour and height of the game board and the numebr of holes present).
 
+### Method
+
+The NN is used to approximate
+$$
+Q^{*}(s,a) = \max_{\pi} \mathbb{E}[r_t + \gamma r_{t+1} + \gamma^2 r_{t+2} + \dots | s_t = s, a_t = a, \pi]
+$$
+
+
 ## RL-intro
 
 Reinforcement learning involves an agent, a set of states $\mathcal{S}$, and a set $\mathcal{A}$  of actions per state. By performing an action $a \in \mathcal {A}$, the agent transitions from state to state. Executing an action in a specific state provides the agent with a reward (a numerical score).
